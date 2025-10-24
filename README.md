@@ -3,6 +3,19 @@
 ## Overview
 This repository contains comprehensive solutions for MobilityCorp's mobility-as-a-service platform, addressing three critical business challenges: demand forecasting, battery management, and customer engagement for electric vehicles.
 
+## ML Model Strategy Recommendation
+
+For **Demand Forecasting** and **Battery Management** solutions, we recommend a **phased ML approach**:
+
+1. **Start with ML Regression**: Handle linear and known factors (time of day, day of week, events, weather, battery age, charge cycles)
+2. **Migrate to LSTM**: Address temporal dependencies and unknown complex patterns (seasonal trends, degradation patterns, usage behaviors)
+
+This approach allows for:
+- **Faster initial implementation** with proven regression models
+- **Gradual complexity increase** as data and requirements mature
+- **Better model interpretability** in early stages
+- **Enhanced predictive power** with LSTM for complex temporal patterns
+
 ## Business Challenges & Solutions
 
 ### 1. Demand Forecasting Challenge
