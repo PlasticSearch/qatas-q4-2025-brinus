@@ -88,7 +88,8 @@ This repository contains comprehensive solutions for MobilityCorp's mobility-as-
 ## Solution Components by Business Challenge
 
 ### 1. Demand Forecasting System (`01-Demand-Forecasting/`)
-- **ML Models**: Time series forecasting, seasonal pattern recognition
+- **ML Regression Models**: Linear factors (time of day, day of week, events, weather)
+- **LSTM Models**: Temporal factors and complex time series patterns
 - **Data Sources**: Historical usage data, weather, events, traffic patterns
 - **Outputs**: Demand predictions by location and time
 - **Business Impact**: Optimized fleet distribution, reduced operational costs
